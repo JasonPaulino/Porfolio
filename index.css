@@ -1,0 +1,80 @@
+#welcomeTitle{
+		font-size: 150px;
+	}
+
+	#welcomeText{
+		font-size: 35px;
+		margin-top: 40px;
+	}
+
+	.Titles{
+		font-size:60px;
+	}
+
+	.introText{
+		font-size: 20px;
+		margin-top: 20px;
+	}
+
+	#passionBox{
+		margin-top: 50px;
+	}
+
+	#welcomeBox{
+		margin-top:70px;
+	}
+
+	form{
+		margin-top: 40px;
+	}
+
+	#emailBox{
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	#messageBox{
+		margin-top: 30px;
+	}
+
+	#phoneBox{
+		margin-top: 30px;
+	}
+
+	.nav-item{
+		font-size: 17px;
+		margin-left: 20px;
+	}
+
+	.navbar-brand{
+		font-size:30px;
+		margin-left:30px;
+	}
+
+	.navbar-nav{
+		margin-left:725px;
+	}
+
+	#submitBtn{
+		margin-top: 30px;
+	}
+
+	#portfolio{
+		margin-top: 50px;
+	}
+
+	.projects{
+		margin-top: 50px;
+	}
+
+	.liveBtn{
+		margin-left: 10px;
+	}
+
+	.previewCode{
+		margin-left: 10px;
+	}
+	
+	#contact{
+		margin-bottom:30px;
+	}
