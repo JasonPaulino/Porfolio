@@ -158,7 +158,8 @@
 	<div class='container' id='contact'>
 		<h1 class='Titles'>Contact Me</h1>
 		<hr>
-		<form>
+		
+		<form action="mailto:jasonp0830@gmail.com" enctype="text/plain">
 			<div class="form-row">
 				<div class="col">
 					<label class='name' for="firstName">First Name</label>
@@ -169,6 +170,7 @@
 					<input type="text" class="form-control" placeholder="Last name">
 				</div>
 			</div>
+			
 			<div id='emailBox' class='form row'>
 				<div class='col'>
 					<label id='emailTitle' for="inputEmail">Email address</label>
@@ -176,6 +178,7 @@
 					<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 				</div>
 			</div>
+		
 			<div id='phoneBox' class='form row'>
 				<div class='col'>
 					<label id='phoneTitle' for="inputPhone">Phone number</label>
@@ -183,20 +186,31 @@
 					<small id="numberHelp" class="form-text text-muted">We'll never share your phone number with anyone else.</small>
 				</div>
 			</div>
+			
 			<div id='messageBox' class='form row'>
 				<div class='col'>
 					<label for="message">Message</label>
 					<textarea class="form-control" id="message" rows="3"></textarea>
 				</div>
 			</div>
-			<button id='submitBtn' type="submit" class="btn btn-primary">Submit</button>
+			
+			<button onclick="myFunction()" id='submitBtn' type="submit" class="btn btn-primary">Submit</button>
+			
+			<div id='contactAlert' class="alert alert-warning alert-dismissible fade show" role="alert">
+  				Sent to Jason Paulino's email address!
+  				<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    				<span aria-hidden="true">&times;</span>
+  				</button>
+			</div>
+			
 		</form>
 	</div>
 	<!-- CONTACT -->
+
 </body>
 
 <!-- JS file being linked with HTML -->
-<script src="/Portfolio/jason.js"></script>
+<script src="index.js"></script>
 
 <!-- Booststrap JS being implemented to the HTML -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
