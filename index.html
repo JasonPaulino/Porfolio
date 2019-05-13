@@ -4,10 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Jason's Portfolio</title>
-
-	<!-- ICONS linked to HTML -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-
+	
 	<!-- Bootstrap CSS being linked with HTML file -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
@@ -194,11 +191,11 @@
 				</div>
 			</div>
 			
-			<button onclick="myFunction()" id='submitBtn' type="submit" class="btn btn-primary">Submit</button>
+			<button id='submitBtn' type="submit" class="btn btn-primary">Submit</button>
 			
 			<div id='contactAlert' class="alert alert-warning alert-dismissible fade show" role="alert">
   				Sent to Jason Paulino's email address!
-  				<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+  				<button type="button" class="close" data-dismiss="alert" aria-hidden='tr'>
     				<span aria-hidden="true">&times;</span>
   				</button>
 			</div>
@@ -206,11 +203,14 @@
 		</form>
 	</div>
 	<!-- CONTACT -->
-
 </body>
 
+<!--JQUERY-->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 <!-- JS file being linked with HTML -->
-<script src="index.js"></script>
+<script type="text/javascript" src="index.js"></script>
 
 <!-- Booststrap JS being implemented to the HTML -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
